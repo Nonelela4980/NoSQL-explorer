@@ -19,7 +19,7 @@ function Sidebar() {
       <div className="mt-2 p-2 text-[#C0CADA]">
         <span className="uppercase text-sm">Keys (8410 scanned)</span>
       </div>
-      <div className="flex flex-col gap-1 overflow-auto">
+      <div className="h-[90%] flex flex-col gap-1 overflow-scroll">
         <KeyItem isActive={true} />
         <KeyItem isActive={false} />
         <KeyItem isActive={false} />
